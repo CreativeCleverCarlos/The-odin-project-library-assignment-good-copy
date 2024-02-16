@@ -1,0 +1,74 @@
+*{
+    box-sizing:border-box;
+}
+header{
+    margin: 0 3em 0 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1{
+    font-size: 2em;
+    
+}
+
+.form-slip-container{
+    border: black solid 1px;
+    width: 30em;
+    background-color: #78A0F1;
+    border-radius: 5px;
+    position: fixed; /** Centering the box**/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    }
+
+.form-slip{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.form-slip h3{
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.form-slip label{
+    font-size: 1.2em;
+}
+
+.form-row{
+    padding: .5em 0 1em 1em;
+    display: flex;
+}
+
+.form-row label{ 
+    flex: 0 0 100px; /** affects the input box positioning **/ 
+    margin-top: 5px;
+}
+
+input[type="text"]{
+    padding: 0.5em 0.7em;
+    border: black solid 2px;
+}
+
+input[type="text"].unfilled{
+    border: red solid 2px;
+}
+
+.form-row .input-field{
+    flex: .75;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #C5D6F9;
+}
+
+#add-Book-Button{
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:aquamarine;
+    max-height: 3em;
+    margin-top: 1em;
+}

@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Library</title>
+    <title>Manga Collection</title>
         <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Your Library Collection</h1>
+        <h1>Your Manga Collection</h1>
         <button type="submit" id="add-Book-Button">Add Book</button>
     </header>
     <main>
@@ -16,7 +16,8 @@
             <div class="books-container">
             </div>
             <div class="form-slip-container">
-                <form action="" class="form-slip">
+                <form class="form-slip">
+                    <button type= "button" id="cancel-Button">Cancel</button>
                     <h3>Add a Book to Library</h3>
                     <div class="form-row">
                         <label for="title">Title:</label>
@@ -30,10 +31,9 @@
                         <label for="pages">No. Pages:</label>
                         <input type="text" id="pages" name="pages" class="input-field" placeholder="131">
                     </div>
-                    <div class="form-row">
-                        <label for="read">Read:</label>
-                        <input type="text" id="read" name="read" class="input-field" placeholder="Read">
-                    </div>
+                            <button id="add-Book-To-Library-Button" type="submit">Add Book</button>
+                        </div>
+                   
                 </form>
             </div>
         </section>

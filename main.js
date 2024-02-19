@@ -5,3 +5,5 @@ newBookButton.addEventListener("click", function(){
     let newBookForm = document.querySelector(".form-slip-container");
     newBookForm.style.display = "block"
 })
+
+//gotta add a cancel button

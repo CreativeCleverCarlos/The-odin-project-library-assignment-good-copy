@@ -23,6 +23,20 @@ function Book(title, author, pages){
     this.pages = pages
 }
 
+//example of inputs for the user
+let exampleBook1 = new Book("One Piece", "Eiichiro Oda", 107);
+let exampleBook2 = new Book("One Punch Man", "One", 29);
+let exampleBook3 = new Book("Hunter X Hunter", "Yoshihiro Togashi", 37)
+
+
+function exampleOfBooks(){
+    myLibrary.push(exampleBook1);
+    myLibrary.push(exampleBook2);
+    myLibrary.push(exampleBook3);
+    render();
+}
+
+exampleOfBooks();
 
 
 
@@ -34,6 +48,7 @@ function addBookToLibrary(){
     myLibrary.push(newBook)
     render();
 }
+
 
 //this is an event listener for the addbook button in the form, so when the information is given, it pops up
 
